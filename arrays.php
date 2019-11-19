@@ -9,6 +9,8 @@
 
             function montaArray($param1, $param2){
                 $array3 = array();
+
+                //array_reverse irá reverter as posições dos valores do array e armazenar na variável temporária(tmp).
                 $tmp = array_reverse($param2, true);
                 
                 foreach($param1 as $value1){
