@@ -1,4 +1,6 @@
 <?php 
+
+    //Calculando menor inteiro:
     function menorInteiro($num1, $num2, $num3) 
     { 
     $i = 1;
